@@ -435,7 +435,7 @@ function Library:create(options)
 		Name = "CyphHub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = ("https://www.CyphHub.net/Scripts/", game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+		Link = "https://www.CyphHub.net/Scripts/"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
