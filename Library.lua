@@ -432,10 +432,10 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "C Hub",
+		Name = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+		Link = "https://www.CHub.net/Scripts/"game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
