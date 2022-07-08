@@ -14,12 +14,12 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(24, 24, 24), 
+	Background = Color3.fromRGB(255, 77, 109), 
 	Glow = Color3.fromRGB(0, 0, 0), 
-	Accent = Color3.fromRGB(10, 10, 10), 
-	LightContrast = Color3.fromRGB(20, 20, 20), 
-	DarkContrast = Color3.fromRGB(14, 14, 14),  
-	TextColor = Color3.fromRGB(255,182,193)
+	Accent = Color3.fromRGB(164, 19, 60), 
+	LightContrast = Color3.fromRGB(128, 15, 47), 
+	DarkContrast = Color3.fromRGB(89, 13, 34),  
+	TextColor = Color3.fromRGB(255, 179, 193)
 }
 
 do
@@ -1041,7 +1041,7 @@ do
 				Size = UDim2.new(0, 40, 0, 14),
 				ZIndex = 2,
 				Image = "rbxassetid://5028857472",
-				ImageColor3 = Color3.fromRGB(255,182,193),
+				ImageColor3 = Color3.fromRGB(255, 240, 243),
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(2, 2, 298, 298)
 			})
@@ -1325,7 +1325,7 @@ do
 		
 		local draggingColor, draggingCanvas
 		
-		local color3 = default or Color3.fromRGB(255,182,193)
+		local color3 = default or Color3.fromRGB(255, 240, 243)
 		local hue, sat, brightness = 0, 0, 1
 		local rgb = {
 			r = 255,
